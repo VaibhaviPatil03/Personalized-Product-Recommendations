@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Exclusive
+        Offers!</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="assets/stylesheets/fontawesome-all.min.css">
+    <link rel="icon" href="https://seeklogo.com/images/F/flipkart-logo-3F33927DAA-seeklogo.com.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="assets/javascript/model.js"></script>
+    <script src="assets/javascript/products.js"></script>
+    <script src="assets/javascript/searchproducts.js"></script>
+    <script data-ad-client="ca-pub-4370747972986025" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="assets/javascript/main.js"></script>
+    <script>
+        function toggleProfileDropdown() {
+            var dropdown = document.getElementById("profileDropdown");
+            dropdown.classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.profile-button')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <a href="#top" class="backToTop"><i class="fas fa-arrow-up"></i></a>
+    <div id="rupee">&#8377;</div>
+    <div id="intro">
+        <div class="shadow">
+        </div>
+        <div class="logo">
+            <div class="flipkart">
+                <img src="assets/images/flipkart-logo-3F33927DAA-seeklogo.com.png" alt="img">
+                <br>
+                <img src="assets/images/flipkartlogo.png" alt="img">
+            </div>
+        </div>
+    </div>
+    <div id="container">
+    </div>
+</body>
